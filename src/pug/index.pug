@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title One Page Wonder - Start Bootstrap Template
+        title Henriette Auersperg-Castell Massage
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -27,71 +27,101 @@ html(lang='en')
         // Navigation
         nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
             .container.px-5
-                a.navbar-brand(href='#page-top') Start Bootstrap
+                a.navbar-brand(href='#page-top') Home
+                a.navbar-brand(href='#intro') Allgemeines
+                a.navbar-brand(href='#oeffnungszeiten') Öffnungszeiten
+                a.navbar-brand(href='#impressum') Impressum
                 button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
-                    ul.navbar-nav.ms-auto
-                        li.nav-item
-                            a.nav-link(href='#!') Sign Up
-                        li.nav-item
-                            a.nav-link(href='#!') Log In
+                    //- ul.navbar-nav.ms-auto
+                    //-     li.nav-item
+                    //-         a.nav-link(href='#!') Sign Up
+                    //-     li.nav-item
+                    //-         a.nav-link(href='#!') Log In
 
         // Header
-        header.masthead.text-center.text-white
+        header(style='background-image: url("./assets/img/intro.svg");background-size: cover; background-repeat: no-repeat; background-position: center; height: 100vh;')
+            
+            .masthead.text-center.text-white
             .masthead-content
-                .container.px-5
-                    h1.masthead-heading.mb-0 One Page Wonder
-                    h2.masthead-subheading.mb-0 Will Rock Your Socks Off
-                    a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll') Learn More
-            .bg-circle-1.bg-circle
-            .bg-circle-2.bg-circle
-            .bg-circle-3.bg-circle
-            .bg-circle-4.bg-circle
+                //- .container.px-5
+                //-     h1.masthead-heading.mb-0 Massage Henriette 
+                //-     h4.masthead-subheading.mb-0 Alle Macht des Menschen besteht aus einer Mischung von Zeit und Geduld.
+                //-     a.btn.btn-primary.btn-xl.rounded-pill.mt-5(href='#scroll')  More
+            
 
         // Content section 1
-        section#scroll
+        section#intro
             .container.px-5
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
                         .p-5
-                            img.img-fluid.rounded-circle(src='assets/img/01.jpg', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/paracelsus.jpg', alt='...')
                     .col-lg-6.order-lg-1
                         .p-5
-                            h2.display-4 For those about to rock...
+                            h2.display-4 Alle Macht des Menschen besteht aus einer Mischung von Zeit und Geduld.
+                            p Auszug aus Wikipedia “Massage”:
                             p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+                                |   “Die Massage dient zur mechanischen Beeinflussung von Haut, Bindegewebe und Muskulatur durch Dehnungs-, Zug- und Druckreiz. Die Wirkung der Massage erstreckt sich von der behandelten Stelle des Körpers über den gesamten Organismus und schließt auch die Psyche ein. 
+                                |   Da sich die theoretischen Grundlagen der einzelnen Massagearten sehr stark unterscheiden und diese auf völlig unterschiedlichen Behandlungstheorien basieren, ist die Anzahl der teils nachgewiesenen Wirkungsweisen auf den Körper groß. Folgend sind die wichtigsten dieser Wirkungsweisen genannt. 
+                            ul
+                                li  Lokale Steigerung der Durchblutung 
+                                li Senkung von Blutdruck und Pulsfrequenz 
+                                li Entspannung der Muskulatur 
+                                li Lösen von Verklebungen und Narben 
+                                li Verbesserte Wundheilung 
+                                li Schmerzlinderung 
+                                li Psychische Entspannung, Reduktion von Stress 
+                                li Verbesserung des Zellstoffwechsels im Gewebe …. “
 
         // Content section 2
-        section
+        section#oeffnungszeiten
             .container.px-5
                 .row.gx-5.align-items-center
                     .col-lg-6
                         .p-5
-                            img.img-fluid.rounded-circle(src='assets/img/02.jpg', alt='...')
+                            img.img-fluid.rounded-circle(src='assets/img/massage.gif', alt='...')
                     .col-lg-6
                         .p-5
-                            h2.display-4 We salute you!
+                            h2.display-4 Öffnungszeiten
                             p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+                                | Termine nach Vereinbarung
+                            p 
+                                | Unter unserer Telefonnummer 0660 1233331 oder per E-Mail: massage@auersperg.org
 
         // Content section 3
-        section
+        section#impressum
             .container.px-5
                 .row.gx-5.align-items-center
                     .col-lg-6.order-lg-2
-                        .p-5
-                            img.img-fluid.rounded-circle(src='assets/img/03.jpg', alt='...')
+                        //- .p-5
+                            //- img.img-fluid.rounded-circle(src='assets/img/03.jpg', alt='...')
                     .col-lg-6.order-lg-1
                         .p-5
-                            h2.display-4 Let there be rock!
+                            h2.display-4 Impressum
+
                             p
-                                | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod aliquid, mollitia odio veniam sit iste esse assumenda amet aperiam exercitationem, ea animi blanditiis recusandae! Ratione voluptatum molestiae adipisci, beatae obcaecati.
+                                | Informationen und Offenlegung gemäß §5 (1) ECG, § 25 MedienG, § 63 GewO und § 14 UGB
+                            p
+                                | Webseitenbetreiber: Henriette Auersperg-Castell
+                            p
+                                | Anschrift: Innstrasse 1, 4783 Wernstein/Inn
+                                br
+                                //- | UID-Nr:
+                                //- | Gewerbeaufsichtbehörde:
+                                //- | Mitgliedschaften:
+
+                                | Kontaktdaten:
+                                br
+                                | Telefon: +43 660 1233331
+                                br
+                                | Email: massage@auersperg.org
 
         // Footer
         footer.py-5.bg-black
             .container.px-5
-                p.m-0.text-center.text-white.small Copyright &copy; Your Website 2023
+                p.m-0.text-center.text-white.small Copyright &copy; Henriette Auersperg-Castell 2023
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')

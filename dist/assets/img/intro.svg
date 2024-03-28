@@ -1,40 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="komplett.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="intro.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25)"
    id="svg2771"
    version="1.1"
    viewBox="0 0 211.01353 99.461121"
    height="99.461121mm"
-   width="211.01353mm">
+   width="211.01353mm"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
-     id="defs2765" />
+     id="defs2765">
+    <rect
+       x="539.33074"
+       y="138.7514"
+       width="81.857518"
+       height="20.899792"
+       id="rect1" />
+  </defs>
   <sodipodi:namedview
      inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="2154"
-     inkscape:window-height="1040"
-     inkscape:window-width="1274"
+     inkscape:window-y="25"
+     inkscape:window-x="406"
+     inkscape:window-height="997"
+     inkscape:window-width="1280"
      showgrid="false"
      inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1321-2"
      inkscape:document-units="mm"
-     inkscape:cy="79.38659"
-     inkscape:cx="587.33715"
-     inkscape:zoom="0.35"
+     inkscape:cy="184.61483"
+     inkscape:cx="603.77176"
+     inkscape:zoom="1.7225052"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0.0"
      borderopacity="1.0"
      bordercolor="#666666"
      pagecolor="#ffffff"
-     id="base" />
+     id="base"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1" />
   <metadata
      id="metadata2768">
     <rdf:RDF>
@@ -43,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -276,12 +286,17 @@
            y="40.265648"
            x="143.21484"
            sodipodi:role="line"
-           id="tspan997-0">Innstraße 1</tspan><tspan
+           id="tspan997-0">Kirchengasse 80</tspan><tspan
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Yu Gothic';-inkscape-font-specification:'Yu Gothic';stroke-width:0.118786"
-           y="45.102448"
+           y="44.710644"
            x="143.21484"
            sodipodi:role="line"
-           id="tspan1001-2">4783 Wernstein am Inn</tspan></text>
+           id="tspan1001-2">4785 Freinberg</tspan></text>
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,0.558304,0.95653)"
+         id="text1"
+         style="fill:#000000;white-space:pre;shape-inside:url(#rect1)" />
     </g>
     <path
        id="path1298-2"
